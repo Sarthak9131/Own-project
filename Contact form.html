@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contactformstyle.css">
+</head>
+<body>
+    <div class="container">
+        <form form action="get">
+            <h1>Student Form</h1>
+            <h4>Please fill all the texts in the fields</h4>
+            <hr>
+            <p>Your Name:
+                <input type="text" name="your name" id="your name" placeholder="xyz" required>
+        
+            </p>
+            <p>Your Email:
+                <input type="email" name="email" id="email" placeholder="xyz@gmail.com">
+            </p>
+            <p>Message:
+                <textarea name="Message" id="Message" cols="80" rows="5"></textarea>
+            </p>
+            <p>Address:
+                <textarea name="address" id="address" cols="80" rows="5"></textarea>
+            </p>
+            <p>Pincode:
+                <input type="number" name="pincode" id="pincode">
+            </p>
+            <fieldset>
+                <legend>Study Details</legend>
+            <p>
+                10th
+                <input type="radio" name="study_details" id="study_details">
+                12th
+                <input type="radio" name="study_details" id="study_details">
+                Graduate
+                <input type="radio" name="study_details" id="study_details">
+                PG
+                <input type="radio" name="study_details" id="study_details">
+
+            </p>
+            </fieldset>
+            <p>Qualifications:
+                <select name="qualification" id="qualificaiton">
+                    <option value="">--Select Degrees--</option>
+                    <option value="BA">BA</option>
+                    <option value="B.Sc.(Non-Med)">B.Sc.(Non-Med)</option>
+                    <option value="B.Tech">B.Tech.</option>
+                    <option value="BCA">BCA</option>
+                    <option value="MCA">MCA</option>
+                </select>
+            </p>
+            <p>
+                <input type="button" value="Submit">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
