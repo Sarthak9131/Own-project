@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiveness</title>
+</head>
+<style>
+    .container{
+        width: 100%;
+        height: auto;
+        background-color: rgb(114, 108, 108);
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+
+    .box1{
+        width: 20%;
+        height: 300px;
+        background-color: rgb(201, 199, 197);
+        margin: 20px;
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: 50px;
+    }
+    .box2{
+        width: 20%;
+        height: 300px;
+        background-color: rgb(222, 221, 220);
+        margin: 20px;
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: 50px;
+    }
+    .box3{
+        width: 20%;
+        height: 300px;
+        background-color: rgb(230, 228, 227);
+        margin: 20px;
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: 50px;
+    }
+    .box4{
+        width: 20%;
+        height: 300px;
+        background-color: rgb(247, 245, 243);
+        margin: 20px;
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: 50px;
+    }
+
+    @media  screen and (max-width:600px) {
+        .box1,.box2,.box3,.box4{
+            width: 40%;
+        }
+    }
+    
+h1{
+    color: rebeccapurple;
+    text-align: center;
+}
+
+
+    
+</style>
+<body>
+    <h1>Whatsup people</h1>
+    <hr>
+    <div class="container">
+        <div class="box1">HEY!</div>
+        <div class="box2">There</div>
+        <div class="box3">I am </div>
+        <div class="box4">Sarthak</div>
+    </div>
+</body>
+</html>
